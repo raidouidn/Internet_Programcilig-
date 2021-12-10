@@ -1,0 +1,72 @@
+body{
+    background-color: #192a56;
+    margin: 0;
+    padding: 0;
+}
+.td1 {
+    color: #ced6e0;
+    font-size: 50px;
+    padding-left: 500px;
+    font-family: "Apple Chancery";
+}
+.td2 {
+    color: #ced6e0;
+    font-family: "Apple Chancery";
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 320px;
+}
+.td3{
+    color: #ced6e0;
+    font-family: "Apple Chancery";
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+
+.input1{
+    padding: 5px;
+    margin: 25px;
+    height: 40px;
+    width: 300px;
+    background-color: #535c68;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.input1:focus{
+    width: 400px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.buton{
+    background-color: #2f3542;
+    border:0 solid #094e11;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:19px;
+    padding:20px 70px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #c2c4c1;
+    border-radius: 50px;
+}
+.buton:hover{
+    background-color: #130f40;
+    color: #c7ecee;
+}
+.buton:active{
+    position:relative;
+    top:5px;
+}
+.link{
+    text-decoration: none;
+    padding-left: 650px;
+    color: white;
+    font-size: 20px;
+
+
+}
